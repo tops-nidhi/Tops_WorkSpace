@@ -1,0 +1,18 @@
+How can we apply the CSS?
+- In a three ways we can apply the CSS
+1.Inline CSS
+- We can apply inline css using style attribute in that (starting) tag.
+- Inline CSS is more important.
+- According to W3C internal css is not ideal.
+
+2.Internal CSS 
+- It's also known as embedded or internal CSS.
+- We can apply it in the head section of HTML using <style> tag.
+- This type of CSS is used when you want to change only one element on your website and don't want to affect other elements.
+- This type of CSS will be used when you want to change only one element and it's very less frequent than external CSS file.
+
+3.External CSS
+- We can apply it in an external file(.css) and then apply it using link tag using href attribute.
+- External CSS file contain all the styling information for our website and then link this external styleSheet with your html document by adding an element inside the header tags.
+- External CSS is less important 
+- According to W3C external css is ideal.

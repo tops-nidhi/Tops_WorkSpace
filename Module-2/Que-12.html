@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        h1 {
+            font-size: 32px;
+        }
+
+        .para {
+            color: gray;
+            clear: both;
+        }
+
+        .img {
+            height: 230px;
+            width: 24%;
+            /* border: 1px solid gray;  */
+            float: left;
+            margin: 4px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .img img {
+            height: 150%;
+            width: 150%;
+            left: -50px;
+            top: -50px;
+            position: absolute;
+            transition: 1s;
+        }
+        .img:hover img{
+            left: 0;
+            top: 0;
+        }
+        .img .img-info {
+            position: absolute;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            /* padding: 15px; */
+            /* top: 100%; */
+            color: #fff;
+            height: 100%;
+            transition: 2s;
+        }
+
+        .img .h4 {
+            top: 100%;
+            right: 100%;
+        }
+
+        .img .p {
+            bottom: 100%;
+            left: 100%;
+        }
+
+        .img:hover .h4 {
+            top: 0;
+            right: 0;
+        }
+
+        .img:hover .p {
+            bottom: 0;
+            left: 0;
+        }
+
+        /* .i-1{
+            float: left;
+        }
+        .i-2{
+            float: left;
+            clear: left;
+        }
+        .i-3{
+            float:right;
+        }
+        .i-4{
+            clear: right;
+        } */
+    </style>
+</head>
+
+<body>
+    <h1>Pseudo-Class in CSS</h1>
+    <div class="img i-1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLEHswHVyxjQ-muQA6Te6teY_DxAw-cOm-gA&usqp=CAU"
+            alt="">
+    </div>
+    </div>
+    <div class="img i-2">
+        <img src="https://t4.ftcdn.net/jpg/05/47/97/81/360_F_547978128_vqEEUYBr1vcAwfRAqReZXTYtyawpgLcC.jpg" alt="">
+    </div>
+    <div class="img i-3">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/022/575/456/small/chamomile-flower-field-camomile-in-the-nature-field-of-camomiles-at-sunny-day-at-nature-camomile-daisy-flowers-in-summer-day-chamomile-flowers-field-wide-background-in-sun-light-generative-ai-photo.jpg"
+            alt="">
+    </div>
+    <div class="img i-4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKn-X2ZRRr7DWK4gEnkQFFo_NSpS4dxoS-gg&usqp=CAU"
+            alt="">
+    </div>
+        <a href="Que-12.html" download="Que-12.html" onclick="alert('are sure you sure you want to download')">Float</a>
+</body>
+
+</html>

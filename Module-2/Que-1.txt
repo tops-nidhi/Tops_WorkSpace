@@ -1,0 +1,24 @@
+(1). What Is Website.??
+-> Website Is A Collection Of WebPages..
+
+(2). What Is Web Pages.??
+-> Every Single Page of Website Its Called WebPages
+
+(3). What Is Web Browser.??
+-> Web Browser Is An Application For Accessing WebSites..
+
+(4). What Is Web Server.??
+-> Web server is a computer where the web content is stored. 
+Basically web server is used to host the web sites but 
+there exists other web servers also such as gaming, storage, 
+FTP, email etc.
+
+(5). What Is HTML.??
+-> HTML Stand For Hyper Text Markup Language..
+-> HTML Shows The Structure Of Web site..
+-> HTML Is Markup Language Not A Programming Language..
+
+(6). What Is CSS.??
+-> CSS Stands For Cascading Style Sheet..
+-> CSS Use For Give A Style To Webpages And WebSites
+-> CSS Is Also Markup Language Not A Programming Language.. 

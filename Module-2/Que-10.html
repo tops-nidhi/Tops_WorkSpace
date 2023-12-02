@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            background: powderblue;
+        }
+
+        .header {
+            width: 100%;
+            height: 20px;
+            border: 1px solid;
+            color: red;
+            background-color: lightblue;
+            text-align: center;
+            font-weight: 800;
+        }
+
+        span {
+            color: red;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        td {
+            width: 25%;
+            color: navy;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        Individual Registration
+    </div>
+    <form action="" method="post">
+        <span>User Particulars</span>
+        <table cellpadding="3px" style="width: 100%;">
+            <!-- first part -->
+            <tr>
+                <td align="right"><span>*</span>Login id</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td align="right"><span>*</span>Password</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td align="right"><span>*</span>Confirm Password</td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+
+
+        <!-- second part -->
+        <span>Personal Particulars</span>
+        <table style="width: 50%; margin: auto;">
+            <tr>
+                <td align="right"><span>*</span>Solution</td>
+                <td> <select name="" id="">
+                        <option value="S">Select</option>
+                    </select></td>
+
+                <td align="right"><span>*</span>First Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td align="right"><span>*</span>Middle Name</td>
+                <td><input type="text"></td>
+                <td align="right"><span>*</span>last Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td align="right"><span>*</span>Resident Status</td>
+                <td> <select name="" id="">
+                        <option value="S">Select</option>
+                    </select></td>
+                <td align="right"><span>*</span>Country</td>
+                <td> <select name="" id="">
+                        <option value="S">Select</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td align="right"><span>*</span>Email Id</td>
+                <td><input type="text"></td>
+                <td align="right"><span>*</span>Phone No.</td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+        <!-- Third part -->
+        <span>Account Particulars</span>
+        <table style="width: 50%; margin: auto;">
+            <tr>
+                <td align="right"><span>*</span>15digit Account No</td>
+                <td><input type="text"></td>
+                <td align="right"><span>*</span>Nick Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <table style="width: 50%; margin: auto;" cellspacing="7px">
+                <tr>
+                    <td align="right"><span>*</span>Fund Transfer</td>
+                    <td><select name="" id="">
+                            <option value="S">Select</option>
+                        </select></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <!-- last part -->
+            <span>DECLARATION</span>
+            <table style="margin: auto;">
+                <tr><td colspan="2"><p>
+                    I Have Read Understood and here by agree to the Terms & Condition in respact of all Projects and
+                    channels.<br>
+                    I understand that any channels in the Terms & Condition.Appicable to this Relationship would be made
+                    available to me on request at any IOB branches I conform that all accounts under this login name are
+                    operated singly and incase of joint account oprated by either or survivor/ any one or survivor(s)under
+                    his/her joint namr reapectively I do here by decleared that information furnished in this form is true
+                    to the best of my knowledge and belief.<br>
+                </p></td></tr>
+                <tr>
+                    <td align="right"><button type="button">submit</button></td>
+                    <td><button type="button">Reset</button></td>
+
+                </tr>
+            </table>
+    </form>
+</body>
+
+</html>
