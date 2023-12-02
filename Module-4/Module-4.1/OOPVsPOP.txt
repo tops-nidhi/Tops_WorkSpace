@@ -1,0 +1,28 @@
+OOP VS POP
+OOP is stands for the Object Oriented Programming
+POP is stands for the Procedure Oriented Programming
+-------------------------------------------------------------------------------------
+OOP give more important to the Object
+POP gve more importance to the procedure
+-------------------------------------------------------------------------------------
+OOP is more secure than the POP
+POP is less secure than the OOP
+-------------------------------------------------------------------------------------
+OOP follows the bottom to top approach
+POP follows the top to bottom approach
+-------------------------------------------------------------------------------------
+OOP is slower than the POP
+POP is fast compare to OOP
+-------------------------------------------------------------------------------------
+OOP is complex than the POP
+POP is simple compare to OOP
+-------------------------------------------------------------------------------------
+
+OOP follows the Object concept
+Where the POP is follows the function
+
+OOP is used less memory .
+POP is used more memory .
+
+ java , C++ , C# , etc..... follows OOP
+c , basic , pascal follows POP

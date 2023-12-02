@@ -1,0 +1,53 @@
+OOP:
+  - OOP is stands for the Object oriented Programming
+  - The main purpose of OOP is the to deal with real world entity using programming language
+Concept:-
+
+1. Class:-
+- Class is a collection of data member(variable which was define inside the class) and member function(a function which was define inside the class)
+                  OR
+- Class is the blue print of the object
+
+- Class  is never occupy the memory
+- Class can get memory by assignment of Object but that memory is object's.
+Syntax:-
+class Class_name
+{
+
+    /*data*/
+
+};
+
+
+2. Object:-
+- Object is a instance of the class
+
+3. Inheritance:-
+- Reusability of class
+- Types:-
+  1.Single level
+  2.Multiple inheritance
+  3.Multilevel
+  4.Hierarchical
+  5.Hybrid
+
+4. Encapsulation:-
+- Process of wrapping the data in single section
+
+5. Abstraction:-
+- Hide the background detail which was unnecessary for the user
+
+6. Polymorphism:-
+-  One name Many form
+
+  i.Compile Time
+      a.Overloading
+          I.Function Overloading
+          ->Same name of Function, Same class but different parameter.
+          II.Operator Overloading(using Operator keyword)
+      b.Overriding
+          I.Function Overriding
+          ->Same name of Function, Same parameter but different class.
+
+  ii.Run Time
+      a.Virtual 
