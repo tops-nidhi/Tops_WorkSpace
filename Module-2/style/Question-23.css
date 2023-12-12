@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.team-container {
+    position: relative;
+}
+
+.team-container .team-img {
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    background-image: url("../Image/teambg.jpg");
+    background-size: cover;
+}
+
+.team-container .heading {
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    right: 25%;
+    margin: auto;
+}
+
+.team-container .heading h2,
+.team-container .heading p {
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.team-container .heading .circle {
+    height: 8px;
+    width: 8px;
+    margin: 20px auto 10px auto;
+    background-color: crimson;
+    border-radius: 50%;
+    position: relative;
+}
+
+.team-container .heading .circle::after,
+.team-container .heading .circle::before {
+    position: absolute;
+    bottom: 4px;
+    height: 1px;
+    background: #eee;
+    content: "";
+    display: inline-block;
+    width: 80px;
+}
+
+.team-container .heading .circle::after {
+    left: 5%;
+    margin-left: 20px;
+}
+
+.team-container .heading .circle::before {
+    right: 5%;
+    margin-right: 20px;
+}
+
+.team-container .svg {
+    position: absolute;
+    top: 94px;
+}
+
+.team-container .main-team {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 400px;
+}
+
+.team-container .main-team .team {
+    height: 200px;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.team-container .main-team li {
+    height: 280px;
+    width: 280px;
+    text-align: center;
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.team-container .main-team .img-1 {
+    position: absolute;
+    left: 1%;
+    top: 50%;
+}
+
+.team-container .main-team .img-2 {
+    position: absolute;
+    left: 19%;
+    top: 6%;
+}
+
+.team-container .main-team .img-3 {
+    position: absolute;
+    left: 37%;
+    top: -10%;
+}
+
+.team-container .main-team .img-4 {
+    position: absolute;
+    left: 55%;
+    top: 5%;
+}
+
+.team-container .main-team .img-5 {
+    position: absolute;
+    left: 73%;
+    top: -16%;
+}
+
+.team-container .main-team .team li .team-img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: auto 100px;
+    box-shadow: 0px 0px 0px 3px crimson;
+}
+
+
+.team-container .main-team .img-1 .team-img {
+    background: url("../Image/perosn-1.jpg");
+    background-size: 100% 100%;
+}
+
+.team-container .main-team .img-2 .team-img {
+    background: url("../Image/person-2.jpg");
+    background-size: 100% 100%;
+}
+
+.team-container .main-team .img-3 .team-img {
+    background: url("../Image/person-3.jpg");
+    background-size: 100% 100%;
+}
+
+.team-container .main-team .img-4 .team-img {
+    background: url("../Image/person-4.jpg");
+    background-size: 100% 100%;
+}
+
+.team-container .main-team .img-5 .team-img {
+    background: url("../Image/person-5.jpg");
+    background-size: 100% 100%;
+} 
+
+.team-container .main-team .team li .team-text {
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+    display: none;
+    margin: 100px auto;
+}
+
+.team-container .main-team .team li .team-text h4{
+    height: 30px;
+    width: 100%;
+    color: crimson;
+    margin: 0;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.team-container .main-team .team li .team-text p{
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.team-container .main-team .team li:hover .team-text{
+    display: block;
+}
