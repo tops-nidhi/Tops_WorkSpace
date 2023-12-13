@@ -1,5 +1,4 @@
 // WAP to find the charecter value using ascii charecter
-// Author : Abhishek Sharma
 #include<stdio.h>
 int main()
 {

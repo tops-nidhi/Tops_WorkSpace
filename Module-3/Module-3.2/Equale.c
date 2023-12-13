@@ -1,5 +1,4 @@
 // WAP to accept two integers and check whether they are equal or not
-// Author: Satyam Kumar Verma
 #include <stdio.h>
 int main() {
     int a, b;

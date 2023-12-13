@@ -1,5 +1,4 @@
 // WAP to input the month number and print month day
-// Author: Nitin Kumar Pal
 #include <stdio.h>
 int main()
 {

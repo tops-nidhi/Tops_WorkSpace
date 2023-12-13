@@ -1,5 +1,4 @@
 // .WAP to find number is even or odd using ternary operator
-// Author: Amirul Islam
 #include <stdio.h>
 int main()
 {
